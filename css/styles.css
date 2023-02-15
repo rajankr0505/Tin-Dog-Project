@@ -1,0 +1,158 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+  /* justify-items: center; */
+}
+.nav-item{
+  padding: 0 1.8rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.downlod-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  /* z-index: -1; */
+  /* position: absolute; */
+}
+
+@media(max-width: 1000px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+}
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icon{
+  color: #ef8172;
+  padding-bottom: 0.8rem;
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+.features-icon:hover{
+  cursor: pointer;
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2.0rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 2.0rem 2.0rem 5.0rem;
+}
+
+#pricing{
+  padding: 10% 10% 0 10%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  padding: 6% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-btn{
+  padding: 1% 2%;
+  margin: 5% 1% 3%;
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.footer-icons{
+  padding: 0.8rem 0.4rem;
+  cursor: pointer;
+}
+
+.footer-paragraph{
+  font-size: 1.1rem;
+}
